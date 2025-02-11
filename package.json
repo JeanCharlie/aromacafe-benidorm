@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "devv": "next dev --port 4000",
     "build": "next build",
-    "start": "next start --port 4000",
+    "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build"
   },
