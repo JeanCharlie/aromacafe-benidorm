@@ -39,3 +39,44 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Archivos SSH y claves privadas
+id_rsa*
+id_dsa*
+id_ed25519*
+*.crt
+*.key
+*.pfx
+
+# Archivos de configuración local
+.npmrc
+.yarnrc
+
+# Archivos de caché
+.cache
+.next/cache
+.next/standalone
+.next/static
+
+# Archivos de logs
+*.log
+*.gz
+*.log.*
+pm2.log
+pm2.pid
+
+# Archivos de Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+/.docker
+
+# Lock files innecesarios
+package-lock.json
+pnpm-lock.yaml
+
+# Archivos de configuración locales
+.vscode/
+.idea/
+*.swp
+*.swo
