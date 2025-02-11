@@ -17,6 +17,11 @@ export default async function RootLayout({
   return (
     <html lang="es" className={satisfy.className}>
       <head>
+        <title>Aroma Cafe - Café Artesanal en Benidorm</title>
+        <meta
+          name="description"
+          content="Descubre el sabor auténtico en Aroma Cafe. Disfruta de café artesanal, deliciosos postres y un ambiente acogedor en Benidorm."
+        />
         {/* Preconectar a orígenes requeridos */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
