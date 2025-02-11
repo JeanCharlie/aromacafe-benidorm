@@ -1,14 +1,12 @@
-import { metadata } from "@/metadata/metadata";
-import { Suspense } from "react";
-
-import Script from "next/script";
-
 import "./globals.css";
 import "leaflet/dist/leaflet.css";
-
+import { metadata } from "@/metadata/metadata";
+import { Suspense } from "react";
+import Script from "next/script";
 import ClientWrapper from "@/components/wrapper/ClientWrapper";
 import FooterWrapper from "@/components/wrapper/FooterWrapper";
 import NavbarWrapper from "@/components/wrapper/NavbarWrapper";
+import StructuredData from "@/components/SEO/StructuredData";
 import { satisfy } from "@/fonts/fonts";
 
 export default async function RootLayout({
@@ -37,6 +35,8 @@ export default async function RootLayout({
         />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+
+        <StructuredData />
       </head>
       <body className={`antialiased ${satisfy.className}`}>
         <Suspense

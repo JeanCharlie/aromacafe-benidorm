@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "devv": "next dev --port 4000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^15.1.7",
     "@types/leaflet": "^1.9.16",
     "framer-motion": "^12.4.2",
     "jspdf": "^2.5.2",

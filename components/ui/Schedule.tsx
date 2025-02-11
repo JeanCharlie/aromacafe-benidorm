@@ -27,29 +27,29 @@ export default function Schedule() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            {["hours", "location", "contact"].map((section) => (
+            {["Horario", "Ubicación", "Contacto"].map((section) => (
               <div key={section} className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg">
                 <div className="flex items-center space-x-4 mb-4">
                   {section === "hours" && <FaClock className="text-2xl text-[#3C2A1F]" />}
                   {section === "location" && <FaMapMarkerAlt className="text-2xl text-[#3C2A1F]" />}
                   {section === "contact" && <FaPhone className="text-2xl text-[#3C2A1F]" />}
                   <h3 className="text-2xl font-semibold text-[#3C2A1F]">
-                  Horarios
+                    {section}
                   </h3>
                 </div>
-                {section === "hours" && (
+                {section === "Horario" && (
                   <div className="space-y-2 text-lg">
                     <p>Lunes a Sábado: 9:00 AM - 9:00 PM</p>
                     <p className="text-red-600 font-semibold">Domingos: Cerrado</p>
                   </div>
                 )}
-                {section === "location" && (
+                {section === "Ubicación" && (
                   <>
                     <p className="text-lg">Calle Rioja 1, Local 5</p>
                     <p className="text-lg">Benidorm, Spain 03501</p>
                   </>
                 )}
-                {section === "contact" && (
+                {section === "Contacto" && (
                   <>
                     <p className="text-lg">+34 999 999 999</p>
                     <p className="text-lg">info@cafearoma.com</p>

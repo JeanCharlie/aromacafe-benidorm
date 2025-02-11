@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://aroma-cafe-benidorm.vercel.app/"),
+    metadataBase: new URL("https://aromacafe-benidorm.vercel.app/"),
     title: {
       default: "Aroma Cafe - Experiencia Culinaria en Benidorm",
       template: "%s | Aroma Cafe",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       description: "Descubre el sabor auténtico en Aroma Cafe",
       type: "website",
       locale: "es_ES",
-      url: "https://aroma-cafe-benidorm.vercel.app/",
+      url: "https://aromacafe-benidorm.vercel.app/",
       siteName: "Aroma Cafe",
     },
     twitter: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       description: "Descubre el sabor auténtico en Aroma Cafe",
     },
     alternates: {
-      canonical: "https://aroma-cafe-benidorm.vercel.app/",
+      canonical: "https://aromacafe-benidorm.vercel.app/",
     },
     robots: {
       index: true,
