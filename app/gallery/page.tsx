@@ -1,10 +1,23 @@
 import Gallery from "@/components/pages/Gallery";
-import { metadata } from '@/metadata/gallery';
+import { galleryImages } from "@/data/gallery";
+import Head from "next/head";
 
 export default function GalleryPage() {
   return (
-    <div>
+    <>
+      <Head>
+        <link 
+          rel="preload" 
+          as="image" 
+          href={galleryImages[0]} 
+        />
+        <link 
+          rel="preload" 
+          as="image" 
+          href={galleryImages[1]} 
+        />
+      </Head>
       <Gallery />
-    </div>
-  )
+    </>
+  );
 }
