@@ -1,6 +1,6 @@
 # 🍵 AromaCafe
 
-Una aplicación web para una cafetería de especialidad, construida con Next.js 14, React 19 y Tailwind CSS. Diseñada para ofrecer una experiencia digital tan rica como nuestro café.
+Una aplicación web inspirada en una cafetería de especialidad encantadora en Benidorm. Este proyecto es una recreación ficticia creada para practicar y demostrar habilidades en Next.js, React y Tailwind CSS. No es el sitio web oficial de la cafetería mencionada, y no tiene fines de lucro. Es una creación personal para aprender y experimentar con las tecnologías utilizadas.
 
 ![AromaCafe Preview](/public/posts/coffee.jpg)
 
@@ -147,8 +147,6 @@ Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
 
 ## 📞 Contacto
 
-- Website: [https://aromacafe-benidorm.vercel.app/](https://aromacafe-benidorm.vercel.app/)
-- Email: info@aromacafe.com
 - Facebook: [@aromacafe](https://www.facebook.com/p/Aroma-Cafe-100089038656584/?locale=es_LA)
 - Instagram: [@aromacafe](https://www.instagram.com/aromacafe.es/)
 
